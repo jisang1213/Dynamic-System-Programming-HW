@@ -1,0 +1,9 @@
+cd ~
+mkdir HW01
+cd HW01
+touch room1 room2 room3 room4 room5 room6 room7 room8
+ls room*
+cp home1 home5 ~/HW01/rooms
+mv room3 room4 ~/HW01/homes/doors
+sudo chmod 640 ~/HW01/room2
+sudo chmod -R a-w ~/HW01/
