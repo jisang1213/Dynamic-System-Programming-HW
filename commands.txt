@@ -7,3 +7,27 @@ cp home1 home5 ~/HW01/rooms
 mv room3 room4 ~/HW01/homes/doors
 sudo chmod 640 ~/HW01/room2
 sudo chmod -R a-w ~/HW01/
+
+ros2 run turtlesim turtlesim_node
+ps -eo user,pid,cmd | sort -k1
+
+when you run enter line 11, the following happens;
+ROS 2 locates the turtlesim package in the ROS 2 workspace.
+It finds the turtlesim_node executable within the package.
+The turtlesim_node executable is launched, starting the turtlesim node.
+The turtlesim node initializes and starts executing its functionality, which typically involves displaying a graphical user interface (GUI) window showing a turtle in a simulated environment.
+Users can interact with the turtlesim environment by sending ROS 2 messages to control the turtle's movement, change its color, teleport it to different positions, and more.
+
+Location of ros2: /opt/ros/foxy/bin/ros2 
+(Python script, ASCII text executable)
+
+Location of turtlesim_node: /opt/ros/foxy/lib/turtlesim/turtlesim_node
+(ELF 64-bit LSB shared object, x86-64)
+
+Permission of ros2: -rwxr-xr-x
+This means the owner can read,write,execute, group can read and execute, and others can read and execute
+
+Permission of turtlesim_node:-rwxr-xr-x
+This means the owner can read,write,execute, group can read and execute, and others can read and execute
+
+
