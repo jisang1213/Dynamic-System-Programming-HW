@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test.dir/src/mymat.cpp.o CMakeFiles/test.dir/src/test.cpp.o -o test 

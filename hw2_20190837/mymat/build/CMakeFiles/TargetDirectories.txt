@@ -1,0 +1,4 @@
+/home/jakob/Desktop/Dynamic-System-Programming-HW/hw2_20190837/mymat/build/CMakeFiles/test.dir
+/home/jakob/Desktop/Dynamic-System-Programming-HW/hw2_20190837/mymat/build/CMakeFiles/mymat.dir
+/home/jakob/Desktop/Dynamic-System-Programming-HW/hw2_20190837/mymat/build/CMakeFiles/edit_cache.dir
+/home/jakob/Desktop/Dynamic-System-Programming-HW/hw2_20190837/mymat/build/CMakeFiles/rebuild_cache.dir
