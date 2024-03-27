@@ -213,431 +213,1056 @@ CMakeFiles/simulate.dir/src/simulate.cpp.o: /home/jakob/Desktop/Dynamic-System-P
   /usr/include/c++/9/tr1/poly_hermite.tcc \
   /usr/include/c++/9/tr1/poly_laguerre.tcc \
   /usr/include/c++/9/tr1/riemann_zeta.tcc \
-  /home/jakob/Desktop/Dynamic-System-Programming-HW/hw2_20190837/mymat/include/mymat.hpp
+  /home/jakob/Desktop/Dynamic-System-Programming-HW/hw2_20190837/mymat/include/mymat.hpp \
+  /home/jakob/Desktop/Dynamic-System-Programming-HW/hw2_20190837/simulation/include/matplotlibcpp.h \
+  /usr/include/c++/9/algorithm \
+  /usr/include/c++/9/bits/stl_algo.h \
+  /usr/include/c++/9/bits/algorithmfwd.h \
+  /usr/include/c++/9/bits/stl_heap.h \
+  /usr/include/c++/9/bits/stl_tempbuf.h \
+  /usr/include/c++/9/bits/uniform_int_dist.h \
+  /usr/include/c++/9/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/9/functional \
+  /usr/include/c++/9/tuple \
+  /usr/include/c++/9/array \
+  /usr/include/c++/9/bits/uses_allocator.h \
+  /usr/include/c++/9/bits/invoke.h \
+  /usr/include/c++/9/bits/refwrap.h \
+  /usr/include/c++/9/bits/std_function.h \
+  /usr/include/c++/9/unordered_map \
+  /usr/include/c++/9/ext/aligned_buffer.h \
+  /usr/include/c++/9/bits/hashtable.h \
+  /usr/include/c++/9/bits/hashtable_policy.h \
+  /usr/include/c++/9/bits/node_handle.h \
+  /usr/include/c++/9/optional \
+  /usr/include/c++/9/bits/enable_special_members.h \
+  /usr/include/c++/9/bits/unordered_map.h \
+  /usr/include/c++/9/bits/erase_if.h \
+  /usr/include/c++/9/pstl/execution_defs.h \
+  /usr/include/c++/9/map \
+  /usr/include/c++/9/bits/stl_tree.h \
+  /usr/include/c++/9/bits/stl_map.h \
+  /usr/include/c++/9/bits/stl_multimap.h \
+  /usr/include/c++/9/numeric \
+  /usr/include/c++/9/bits/stl_numeric.h \
+  /usr/include/c++/9/pstl/glue_numeric_defs.h \
+  /usr/include/c++/9/sstream \
+  /usr/include/c++/9/bits/sstream.tcc \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/Python.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/patchlevel.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/pyconfig.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/pymacconfig.h \
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/c++/9/stdlib.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/crypt.h \
+  /usr/include/assert.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/pyport.h \
+  /usr/include/inttypes.h \
+  /usr/include/c++/9/math.h \
+  /usr/include/x86_64-linux-gnu/sys/time.h \
+  /usr/include/x86_64-linux-gnu/sys/stat.h \
+  /usr/include/x86_64-linux-gnu/bits/stat.h \
+  /usr/include/x86_64-linux-gnu/bits/statx.h \
+  /usr/include/linux/stat.h \
+  /usr/include/linux/types.h \
+  /usr/include/x86_64-linux-gnu/asm/types.h \
+  /usr/include/asm-generic/types.h \
+  /usr/include/asm-generic/int-ll64.h \
+  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+  /usr/include/asm-generic/bitsperlong.h \
+  /usr/include/linux/posix_types.h \
+  /usr/include/linux/stddef.h \
+  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
+  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+  /usr/include/asm-generic/posix_types.h \
+  /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/exports.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/pymacro.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/pymath.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/pymem.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/pymem.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/object.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/object.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/objimpl.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/objimpl.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/typeslots.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/pyhash.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/pydebug.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/bytearrayobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/bytearrayobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/bytesobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/bytesobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/unicodeobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/unicodeobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/longobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/longintrepr.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/boolobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/floatobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/complexobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/rangeobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/memoryobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/tupleobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/tupleobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/listobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/listobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/dictobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/dictobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/odictobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/enumobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/setobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/methodobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/methodobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/moduleobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/funcobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/classobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/fileobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/fileobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/pycapsule.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/code.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/code.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/pyframe.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/traceback.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/traceback.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/sliceobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cellobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/iterobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/genobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/pystate.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/pystate.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/initconfig.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/abstract.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/abstract.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/descrobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/genericaliasobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/warnings.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/weakrefobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/structseq.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/namespaceobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/picklebufobject.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/pytime.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/codecs.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/pyerrors.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/pyerrors.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/initconfig.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/pythread.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/context.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/modsupport.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/compile.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/compile.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/pythonrun.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/pythonrun.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/pylifecycle.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/pylifecycle.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/ceval.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/ceval.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/sysmodule.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/sysmodule.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/osmodule.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/intrcheck.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/import.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/import.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/bltinmodule.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/eval.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/pyctype.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/pystrtod.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/pystrcmp.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/fileutils.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/fileutils.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/pyfpe.h \
+  /home/jakob/anaconda3/envs/jakob/include/python3.10/tracemalloc.h \
+  /home/jakob/anaconda3/envs/jakob/lib/python3.10/site-packages/numpy/core/include/numpy/arrayobject.h \
+  /home/jakob/anaconda3/envs/jakob/lib/python3.10/site-packages/numpy/core/include/numpy/ndarrayobject.h \
+  /home/jakob/anaconda3/envs/jakob/lib/python3.10/site-packages/numpy/core/include/numpy/ndarraytypes.h \
+  /home/jakob/anaconda3/envs/jakob/lib/python3.10/site-packages/numpy/core/include/numpy/npy_common.h \
+  /home/jakob/anaconda3/envs/jakob/lib/python3.10/site-packages/numpy/core/include/numpy/numpyconfig.h \
+  /home/jakob/anaconda3/envs/jakob/lib/python3.10/site-packages/numpy/core/include/numpy/_numpyconfig.h \
+  /home/jakob/anaconda3/envs/jakob/lib/python3.10/site-packages/numpy/core/include/numpy/npy_endian.h \
+  /home/jakob/anaconda3/envs/jakob/lib/python3.10/site-packages/numpy/core/include/numpy/npy_cpu.h \
+  /home/jakob/anaconda3/envs/jakob/lib/python3.10/site-packages/numpy/core/include/numpy/utils.h \
+  /home/jakob/anaconda3/envs/jakob/lib/python3.10/site-packages/numpy/core/include/numpy/_neighborhood_iterator_imp.h \
+  /home/jakob/anaconda3/envs/jakob/lib/python3.10/site-packages/numpy/core/include/numpy/__multiarray_api.h \
+  /home/jakob/anaconda3/envs/jakob/lib/python3.10/site-packages/numpy/core/include/numpy/npy_interrupt.h \
+  /usr/include/setjmp.h \
+  /usr/include/signal.h \
+  /usr/include/x86_64-linux-gnu/bits/signum.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+  /usr/include/x86_64-linux-gnu/bits/signal_ext.h
+
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
+
+/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigstack.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/sigaction.h:
 
-/usr/include/c++/9/tr1/riemann_zeta.tcc:
+/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
 
-/usr/include/c++/9/tr1/modified_bessel_func.tcc:
+/usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
 
-/usr/include/c++/9/tr1/legendre_function.tcc:
+/usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
 
-/usr/include/c++/9/tr1/exp_integral.tcc:
+/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
 
-/usr/include/c++/9/tr1/bessel_function.tcc:
+/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
 
-/usr/include/c++/9/bits/specfun.h:
+/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+/usr/include/x86_64-linux-gnu/bits/signum.h:
 
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+/usr/include/setjmp.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+/home/jakob/anaconda3/envs/jakob/lib/python3.10/site-packages/numpy/core/include/numpy/_neighborhood_iterator_imp.h:
 
-/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+/home/jakob/anaconda3/envs/jakob/lib/python3.10/site-packages/numpy/core/include/numpy/npy_cpu.h:
 
-/usr/include/math.h:
+/home/jakob/anaconda3/envs/jakob/lib/python3.10/site-packages/numpy/core/include/numpy/numpyconfig.h:
 
-/usr/include/c++/9/cmath:
+/home/jakob/anaconda3/envs/jakob/lib/python3.10/site-packages/numpy/core/include/numpy/npy_common.h:
 
-/usr/include/c++/9/bits/stl_relops.h:
+/home/jakob/anaconda3/envs/jakob/lib/python3.10/site-packages/numpy/core/include/numpy/ndarraytypes.h:
 
-/usr/include/c++/9/utility:
+/home/jakob/anaconda3/envs/jakob/lib/python3.10/site-packages/numpy/core/include/numpy/arrayobject.h:
 
-/usr/include/c++/9/vector:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/fileutils.h:
 
-/usr/include/c++/9/bits/istream.tcc:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/pystrcmp.h:
 
-/usr/include/c++/9/istream:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/pyctype.h:
 
-/usr/include/c++/9/bits/ostream.tcc:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/pyfpe.h:
 
-/usr/include/c++/9/bits/basic_ios.tcc:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/eval.h:
 
-/usr/include/x86_64-linux-gnu/c++/9/bits/ctype_inline.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/import.h:
 
-/usr/include/c++/9/bits/fstream.tcc:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/import.h:
 
-/usr/include/c++/9/bits/streambuf_iterator.h:
+/usr/include/x86_64-linux-gnu/sys/ucontext.h:
 
-/usr/include/c++/9/bits/basic_ios.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/sysmodule.h:
 
-/usr/include/c++/9/bits/streambuf.tcc:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/pylifecycle.h:
 
-/usr/include/c++/9/stdexcept:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/pythonrun.h:
 
-/usr/include/c++/9/bits/locale_classes.tcc:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/pythread.h:
 
-/usr/include/asm-generic/errno-base.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/pyerrors.h:
 
-/usr/include/c++/9/cwctype:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/codecs.h:
 
-/usr/include/x86_64-linux-gnu/asm/errno.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/pytime.h:
 
-/usr/include/linux/errno.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/warnings.h:
 
-/usr/include/errno.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/genericaliasobject.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/modsupport.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/abstract.h:
 
-/usr/include/c++/9/cstdio:
+/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/initconfig.h:
 
-/usr/include/c++/9/bits/std_abs.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/pystate.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/pystate.h:
 
-/usr/include/c++/9/tr1/poly_hermite.tcc:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cellobject.h:
 
-/usr/include/alloca.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/sliceobject.h:
 
-/usr/include/x86_64-linux-gnu/sys/select.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/pyframe.h:
 
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/fileobject.h:
 
-/usr/include/c++/9/bits/locale_facets.tcc:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/funcobject.h:
 
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/moduleobject.h:
 
-/usr/include/x86_64-linux-gnu/sys/types.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/iterobject.h:
 
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/methodobject.h:
 
-/usr/include/c++/9/debug/debug.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/methodobject.h:
 
-/usr/include/c++/9/bits/stl_iterator_base_funcs.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/descrobject.h:
 
-/usr/include/c++/9/bits/stl_pair.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/code.h:
 
-/usr/include/c++/9/bits/stl_function.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/setobject.h:
 
-/usr/include/c++/9/ext/numeric_traits.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/odictobject.h:
 
-/usr/include/c++/9/ext/type_traits.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/bltinmodule.h:
 
-/usr/include/c++/9/tr1/ell_integral.tcc:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/dictobject.h:
 
-/usr/include/c++/9/bits/nested_exception.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/tupleobject.h:
 
-/usr/include/c++/9/cctype:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/memoryobject.h:
 
-/usr/include/x86_64-linux-gnu/c++/9/bits/gthr-default.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/rangeobject.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/complexobject.h:
 
-/usr/include/x86_64-linux-gnu/c++/9/bits/gthr.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/longobject.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/bytesobject.h:
 
-/usr/include/c++/9/bits/stl_construct.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/pyhash.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/code.h:
 
-/usr/include/c++/9/bits/basic_string.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/typeslots.h:
 
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/object.h:
 
-/usr/include/c++/9/streambuf:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/pymem.h:
 
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/pymath.h:
 
-/usr/include/c++/9/bits/stl_algobase.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/pymacro.h:
 
-/usr/include/c++/9/bits/exception.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/exports.h:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
 
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+/usr/include/x86_64-linux-gnu/bits/statx-generic.h:
 
-/usr/include/c++/9/bits/move.h:
+/usr/include/linux/stddef.h:
 
-/usr/include/c++/9/bits/stl_bvector.h:
+/usr/include/asm-generic/bitsperlong.h:
 
-/usr/include/c++/9/bits/cxxabi_init_exception.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/ceval.h:
 
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
+/usr/include/asm-generic/int-ll64.h:
 
-/usr/include/stdc-predef.h:
+/usr/include/linux/types.h:
 
-/usr/include/wctype.h:
+/usr/include/x86_64-linux-gnu/bits/statx.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+/usr/include/x86_64-linux-gnu/bits/stat.h:
 
-/usr/include/c++/9/bits/stl_iterator_base_types.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/compile.h:
 
-/usr/include/c++/9/cwchar:
+/usr/include/asm-generic/posix_types.h:
 
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+/usr/include/c++/9/math.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+/home/jakob/anaconda3/envs/jakob/lib/python3.10/site-packages/numpy/core/include/numpy/npy_endian.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/pyport.h:
 
-/usr/include/sched.h:
+/usr/include/crypt.h:
 
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
-/usr/include/stdio.h:
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
-/usr/include/features.h:
+/usr/include/x86_64-linux-gnu/bits/confname.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+/usr/include/unistd.h:
 
-/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h:
+/usr/include/c++/9/stdlib.h:
 
-/usr/include/c++/9/iosfwd:
+/usr/include/strings.h:
 
-/usr/include/c++/9/fstream:
+/usr/include/string.h:
 
-/home/jakob/Desktop/Dynamic-System-Programming-HW/hw2_20190837/simulation/src/simulate.cpp:
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/weakrefobject.h:
 
-/usr/include/c++/9/ostream:
-
-/usr/include/stdint.h:
-
-/usr/include/c++/9/tr1/gamma.tcc:
-
-/usr/include/c++/9/iostream:
-
-/usr/include/c++/9/bits/hash_bytes.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
-/usr/include/c++/9/bits/cpp_type_traits.h:
-
-/usr/include/c++/9/bits/stringfwd.h:
-
-/usr/include/c++/9/exception:
-
-/usr/include/c++/9/type_traits:
-
-/usr/include/c++/9/bits/memoryfwd.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/c++/9/limits:
-
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
-
-/usr/include/c++/9/bits/ostream_insert.h:
-
-/usr/include/c++/9/tr1/poly_laguerre.tcc:
-
-/usr/include/c++/9/bits/vector.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/usr/include/wchar.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h:
-
-/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
-
-/usr/include/x86_64-linux-gnu/c++/9/bits/cpu_defines.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/c++/9/backward/binders.h:
-
-/home/jakob/Desktop/Dynamic-System-Programming-HW/hw2_20190837/mymat/include/mymat.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/c++/9/bits/char_traits.h:
-
-/usr/include/c++/9/bits/locale_facets.h:
-
-/usr/include/c++/9/bits/functexcept.h:
-
-/usr/include/c++/9/typeinfo:
-
-/usr/include/c++/9/bits/codecvt.h:
-
-/usr/include/c++/9/debug/assertions.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/c++/9/bits/stl_uninitialized.h:
-
-/usr/include/x86_64-linux-gnu/c++/9/bits/c++io.h:
-
-/usr/include/x86_64-linux-gnu/c++/9/bits/error_constants.h:
-
-/usr/include/c++/9/bits/exception_defines.h:
-
-/usr/include/c++/9/system_error:
-
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-/usr/include/c++/9/bits/exception_ptr.h:
-
-/usr/include/c++/9/bits/predefined_ops.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h:
-
-/usr/include/c++/9/bits/localefwd.h:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
-
-/usr/include/c++/9/cerrno:
-
-/usr/include/x86_64-linux-gnu/bits/sched.h:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/x86_64-linux-gnu/c++/9/bits/basic_file.h:
-
-/usr/include/c++/9/bits/basic_string.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/x86_64-linux-gnu/c++/9/bits/ctype_base.h:
-
-/usr/include/c++/9/pstl/pstl_config.h:
-
-/usr/include/x86_64-linux-gnu/c++/9/bits/c++locale.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/c++/9/bits/stl_iterator.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/c++/9/tr1/hypergeometric.tcc:
-
-/usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h:
-
-/usr/include/c++/9/clocale:
-
-/usr/include/c++/9/bits/range_access.h:
-
-/usr/include/c++/9/bits/stl_vector.h:
-
-/usr/include/c++/9/bits/string_view.tcc:
-
-/usr/include/c++/9/initializer_list:
-
-/usr/include/x86_64-linux-gnu/bits/locale.h:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/usr/include/c++/9/bits/ios_base.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
-
-/usr/include/c++/9/ext/atomicity.h:
-
-/usr/include/c++/9/bits/ptr_traits.h:
-
-/usr/include/pthread.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/locale.h:
-
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/usr/include/c++/9/tr1/special_function_util.h:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/usr/include/c++/9/new:
-
-/usr/include/c++/9/bits/concept_check.h:
-
-/usr/include/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
-
-/usr/include/c++/9/bits/postypes.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
-/usr/include/c++/9/cstdint:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/ctype.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/endian.h:
-
-/usr/include/c++/9/ios:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/include/c++/9/ext/new_allocator.h:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/x86_64-linux-gnu/c++/9/bits/atomic_word.h:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/usr/include/c++/9/bits/locale_classes.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
-
-/usr/include/c++/9/string:
-
-/usr/include/c++/9/bits/allocator.h:
-
-/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:
-
-/usr/include/c++/9/bits/cxxabi_forced.h:
-
-/usr/include/c++/9/ext/alloc_traits.h:
-
-/usr/include/c++/9/tr1/beta_function.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
-
-/usr/include/c++/9/bits/alloc_traits.h:
-
-/usr/include/c++/9/string_view:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/c++/9/bits/functional_hash.h:
-
-/usr/include/c++/9/ext/string_conversions.h:
+/usr/include/stdlib.h:
 
 /usr/include/c++/9/cstdlib:
 
-/usr/include/stdlib.h:
+/home/jakob/anaconda3/envs/jakob/include/python3.10/longintrepr.h:
+
+/usr/include/c++/9/ext/string_conversions.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/c++/9/bits/functional_hash.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/genobject.h:
+
+/usr/include/c++/9/bits/uniform_int_dist.h:
+
+/usr/include/c++/9/string_view:
+
+/usr/include/c++/9/bits/alloc_traits.h:
+
+/usr/include/c++/9/tr1/beta_function.tcc:
+
+/usr/include/c++/9/bits/stl_heap.h:
+
+/usr/include/c++/9/ext/alloc_traits.h:
+
+/usr/include/c++/9/bits/cxxabi_forced.h:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:
+
+/usr/include/c++/9/bits/allocator.h:
+
+/usr/include/c++/9/string:
+
+/usr/include/c++/9/bits/locale_classes.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/traceback.h:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/atomic_word.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/home/jakob/anaconda3/envs/jakob/lib/python3.10/site-packages/numpy/core/include/numpy/ndarrayobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/c++/9/bits/algorithmfwd.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/tracemalloc.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/listobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/c++/9/ext/new_allocator.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/usr/include/c++/9/tuple:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/c++/9/cstdint:
+
+/usr/include/c++/9/bits/postypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/time.h:
+
+/usr/include/c++/9/bits/concept_check.h:
+
+/usr/include/c++/9/new:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/signal.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/sysmodule.h:
+
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
+/usr/include/locale.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/include/pthread.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/dictobject.h:
+
+/usr/include/c++/9/ext/atomicity.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/unicodeobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/pycapsule.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/classobject.h:
+
+/usr/include/c++/9/bits/ios_base.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/c++/9/initializer_list:
+
+/usr/include/c++/9/bits/string_view.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h:
+
+/usr/include/c++/9/tr1/hypergeometric.tcc:
+
+/usr/include/c++/9/bits/stl_iterator.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/c++locale.h:
+
+/usr/include/c++/9/pstl/pstl_config.h:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/ctype_base.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/c++/9/bits/basic_string.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/basic_file.h:
+
+/home/jakob/anaconda3/envs/jakob/lib/python3.10/site-packages/numpy/core/include/numpy/npy_interrupt.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/c++/9/unordered_map:
+
+/usr/include/c++/9/bits/predefined_ops.h:
+
+/home/jakob/anaconda3/envs/jakob/lib/python3.10/site-packages/numpy/core/include/numpy/_numpyconfig.h:
+
+/usr/include/c++/9/system_error:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/error_constants.h:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/c++io.h:
+
+/usr/include/c++/9/cerrno:
+
+/usr/include/c++/9/bits/stl_uninitialized.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/intrcheck.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/pydebug.h:
+
+/usr/include/asm-generic/types.h:
+
+/usr/include/c++/9/debug/assertions.h:
+
+/usr/include/c++/9/bits/codecvt.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/pylifecycle.h:
+
+/usr/include/c++/9/typeinfo:
+
+/usr/include/c++/9/bits/functexcept.h:
+
+/usr/include/c++/9/bits/locale_facets.h:
+
+/usr/include/c++/9/algorithm:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/objimpl.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/structseq.h:
+
+/usr/include/c++/9/backward/binders.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/cpu_defines.h:
+
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/pyerrors.h:
+
+/usr/include/c++/9/bits/localefwd.h:
+
+/usr/include/wchar.h:
+
+/usr/include/c++/9/tr1/poly_laguerre.tcc:
+
+/usr/include/c++/9/bits/ostream_insert.h:
+
+/usr/include/c++/9/bits/refwrap.h:
+
+/usr/include/c++/9/clocale:
+
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/c++/9/bits/stl_vector.h:
+
+/usr/include/c++/9/limits:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/c++/9/bits/memoryfwd.h:
+
+/usr/include/c++/9/type_traits:
+
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/usr/include/c++/9/exception:
+
+/usr/include/x86_64-linux-gnu/sys/stat.h:
+
+/usr/include/c++/9/bits/cpp_type_traits.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/unicodeobject.h:
+
+/usr/include/c++/9/bits/hash_bytes.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/picklebufobject.h:
+
+/usr/include/c++/9/iostream:
+
+/usr/include/c++/9/tr1/gamma.tcc:
+
+/usr/include/c++/9/bits/stringfwd.h:
+
+/usr/include/stdint.h:
+
+/usr/include/c++/9/bits/stl_multimap.h:
+
+/usr/include/c++/9/ostream:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/home/jakob/Desktop/Dynamic-System-Programming-HW/hw2_20190837/mymat/include/mymat.hpp:
+
+/home/jakob/Desktop/Dynamic-System-Programming-HW/hw2_20190837/simulation/src/simulate.cpp:
+
+/usr/include/c++/9/fstream:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/x86_64-linux-gnu/sys/time.h:
+
+/usr/include/features.h:
+
+/usr/include/stdio.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/sched.h:
+
+/usr/include/x86_64-linux-gnu/asm/posix_types.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/boolobject.h:
+
+/usr/include/c++/9/cwchar:
+
+/usr/include/c++/9/bits/stl_iterator_base_types.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/floatobject.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/bytearrayobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/osmodule.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/object.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/wctype.h:
+
+/usr/include/c++/9/numeric:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
+
+/usr/include/c++/9/ios:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/include/c++/9/bits/cxxabi_init_exception.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/c++/9/bits/stl_bvector.h:
+
+/usr/include/c++/9/bits/move.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/c++/9/bits/hashtable_policy.h:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/c++/9/tr1/special_function_util.h:
+
+/usr/include/c++/9/streambuf:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/namespaceobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+/usr/include/c++/9/bits/basic_string.h:
+
+/usr/include/c++/9/bits/ptr_traits.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/pyconfig.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/tupleobject.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h:
+
+/usr/include/c++/9/bits/stl_construct.h:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/gthr.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/traceback.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/c++/9/cctype:
+
+/usr/include/c++/9/tr1/ell_integral.tcc:
+
+/usr/include/c++/9/ext/type_traits.h:
+
+/usr/include/c++/9/ext/numeric_traits.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/c++/9/bits/stl_function.h:
+
+/usr/include/c++/9/bits/stl_pair.h:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/c++/9/bits/stl_iterator_base_funcs.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/abstract.h:
+
+/usr/include/c++/9/debug/debug.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/pymacconfig.h:
+
+/usr/include/c++/9/iosfwd:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/asm/types.h:
+
+/usr/include/c++/9/bits/nested_exception.h:
+
+/usr/include/c++/9/bits/locale_facets.tcc:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/fileutils.h:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/c++/9/bits/exception.h:
+
+/usr/include/alloca.h:
+
+/home/jakob/anaconda3/envs/jakob/lib/python3.10/site-packages/numpy/core/include/numpy/__multiarray_api.h:
+
+/usr/include/c++/9/tr1/poly_hermite.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+
+/usr/include/c++/9/bits/std_abs.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+/usr/include/c++/9/cstdio:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/bytesobject.h:
+
+/usr/include/c++/9/bits/sstream.tcc:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/compile.h:
+
+/usr/include/c++/9/bits/stl_tempbuf.h:
+
+/usr/include/errno.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/c++/9/bits/stl_algobase.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/linux/stat.h:
+
+/usr/include/c++/9/bits/locale_classes.tcc:
+
+/usr/include/c++/9/stdexcept:
+
+/usr/include/c++/9/optional:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/c++/9/cwctype:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/context.h:
+
+/usr/include/c++/9/bits/stl_map.h:
+
+/usr/include/c++/9/bits/streambuf.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/c++/9/bits/basic_ios.h:
+
+/usr/include/c++/9/bits/stl_algo.h:
+
+/usr/include/c++/9/bits/streambuf_iterator.h:
+
+/usr/include/c++/9/bits/fstream.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/gthr-default.h:
+
+/usr/include/c++/9/ext/aligned_buffer.h:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/ctype_inline.h:
+
+/usr/include/c++/9/bits/basic_ios.tcc:
+
+/usr/include/c++/9/bits/hashtable.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/pymem.h:
+
+/usr/include/c++/9/bits/ostream.tcc:
+
+/usr/include/c++/9/istream:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_statx.h:
+
+/usr/include/c++/9/bits/istream.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
+
+/usr/include/c++/9/vector:
+
+/home/jakob/anaconda3/envs/jakob/lib/python3.10/site-packages/numpy/core/include/numpy/utils.h:
+
+/usr/include/c++/9/utility:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/fileobject.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/bytearrayobject.h:
+
+/usr/include/c++/9/bits/stl_relops.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/pystrtod.h:
+
+/usr/include/c++/9/cmath:
+
+/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/objimpl.h:
+
+/usr/include/assert.h:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h:
+
+/usr/include/math.h:
+
+/usr/include/c++/9/bits/erase_if.h:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/c++/9/bits/specfun.h:
+
+/usr/include/c++/9/tr1/bessel_function.tcc:
+
+/usr/include/c++/9/tr1/exp_integral.tcc:
+
+/usr/include/c++/9/tr1/legendre_function.tcc:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/listobject.h:
+
+/usr/include/c++/9/tr1/modified_bessel_func.tcc:
+
+/usr/include/linux/posix_types.h:
+
+/usr/include/c++/9/bits/stl_numeric.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/ceval.h:
+
+/home/jakob/Desktop/Dynamic-System-Programming-HW/hw2_20190837/simulation/include/matplotlibcpp.h:
+
+/usr/include/c++/9/bits/vector.tcc:
+
+/usr/include/c++/9/pstl/glue_algorithm_defs.h:
+
+/usr/include/c++/9/functional:
+
+/usr/include/c++/9/array:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/cpython/pythonrun.h:
+
+/usr/include/c++/9/bits/uses_allocator.h:
+
+/usr/include/c++/9/bits/exception_defines.h:
+
+/usr/include/c++/9/bits/invoke.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/enumobject.h:
+
+/usr/include/c++/9/bits/node_handle.h:
+
+/usr/include/c++/9/bits/enable_special_members.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/c++/9/sstream:
+
+/usr/include/c++/9/bits/unordered_map.h:
+
+/usr/include/c++/9/pstl/execution_defs.h:
+
+/usr/include/c++/9/map:
+
+/usr/include/ctype.h:
+
+/usr/include/c++/9/bits/stl_tree.h:
+
+/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/c++/9/bits/exception_ptr.h:
+
+/usr/include/c++/9/bits/char_traits.h:
+
+/usr/include/c++/9/bits/std_function.h:
+
+/usr/include/c++/9/tr1/riemann_zeta.tcc:
+
+/usr/include/c++/9/pstl/glue_numeric_defs.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/Python.h:
+
+/home/jakob/anaconda3/envs/jakob/include/python3.10/patchlevel.h:
+
+/usr/include/c++/9/bits/range_access.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h:
+
+/usr/include/limits.h:

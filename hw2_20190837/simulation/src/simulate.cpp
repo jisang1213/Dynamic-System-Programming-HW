@@ -3,10 +3,10 @@
 #include <string>
 #include <vector>
 #include <cmath>
-#include <../../mymat/include/mymat.hpp>
-//#include "../include/matplotlibcpp.h"
+#include <mymat.hpp>
+#include "matplotlibcpp.h"
 
-//namespace plt = matplotlibcpp; 
+namespace plt = matplotlibcpp; 
 
 int main()
 {
@@ -22,19 +22,19 @@ int main()
     std::cout << "I_lcs" << std::endl;
     I_lcs.display();
 
+    Mat33 I_lcs_inverse = I_lcs.inverse();
+
     Mat33 R_l2g(1.0, 1.0, 1.0); // passive rotation matrix from local to global frame (orientation of local frame)
     std::cout << "R_l2g" << std::endl;
     R_l2g.display();
 
-    Vec3 w_gcs(0.0, 1.0, 0.01); // angular velocity of the local coordinate system expressed in the global frame
+    Vec3 w_lcs(0.0, 1.0, 0.01); // angular velocity of the local coordinate system expressed in the local frame
 
-    std::cout << "w_gcs" << std::endl;
-    w_gcs.display();
+    std::cout << "w_lcs" << std::endl;
+    w_lcs.display();
 
     Vec3 wd_lcs; // dw/dt in the local frame
     Mat33 eye(1.0, 1.0, 1.0);
-
-    Vec3 w_lcs; //angular velocity expressed in global frame
 
     int count =0;
 
@@ -45,29 +45,15 @@ int main()
     {
         // TODO: implement semi-implicit Euler method to simulate the tennis racket theorem
 
-        //convert angular velocity to global frame
-        w_lcs = R_l2g.transpose()*w_gcs;
-
         //find rate change of angular velocity in local frame
-        wd_lcs = (I_lcs.inverse()*((Vec3)(I_lcs*w_lcs)).cross(w_lcs));
+        wd_lcs = I_lcs_inverse*((w_lcs.skew()*(I_lcs*w_lcs))*-1);
 
-        //increment angular velocity in local frame using EOM
+        //increment angular velocity in local frame
         w_lcs = w_lcs + wd_lcs*h;
 
-        //transform updated angular velocity to global frame
-        w_gcs = R_l2g*w_lcs;
-
-        //Update orientation using angular velocity (dR/dt = W x R)
-        R_l2g = R_l2g + (w_gcs.skew()*R_l2g)* h;
-
-
-
-        // //compute axis, angle, then rotation matrix using Rodriguez's formula
-        // K = w_gcs.normalized().skew();
-        // angle = w_gcs.norm()*h;
-        // rot = eye + K*sin(angle) + K*K*(1-cos(angle));
-
-
+        //Update orientation. A more computational efficient methods was used involving time derivative of the rotation matrices.
+        //Refer to README for the formula for time derivative of rotation matrices.
+        R_l2g = R_l2g + (R_l2g*w_lcs.skew())*h;
 
         // record the simulation results to the file
         if (i_sim % rec_steps == 0)
@@ -78,6 +64,8 @@ int main()
             cosz[count] = R_l2g.get_elem(2,2);
             time[count] = i_sim * h;
             count++;
+
+            std::cout << i_sim*h << std::endl;
 
             file_results << i_sim * h << ", "; // record time
             // record the orientation of the local frame
@@ -91,13 +79,15 @@ int main()
     file_results.close();
 
     // //plot (reconsider using matplotlibbcpp as it requires python)
-    // plt::title("Cosine values of local and global axes");
-    // plt::plot(time, cosx);
-    // plt::plot(time, cosy, "r");
-    // plt::xlabel("time(s)");
-    // plt::ylabel("cos");
+    plt::title("Cosine values of local and global axes");
+    plt::plot(time, cosx, "b", {{"label", "x-axis"}});
+    plt::plot(time, cosy, "r", {{"label", "y-axis"}});
+    plt::plot(time, cosz, "y", {{"label", "z-axis"}});
+    plt::xlabel("time(s)");
+    plt::ylabel("cos");
+    plt::legend({{"upper right"}});
 
-    // plt::show();
+    plt::show();
     
     return 0;
 }

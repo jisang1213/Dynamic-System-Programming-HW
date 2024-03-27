@@ -1,8 +1,4 @@
-##Python 3.8 is required to run the executable (for using matplotlibcpp library)
+#Matplotlibcpp is a lightweight C++ wrapper to the Python library MPL. Python 3 is required to run the executable.
 
-#To run, first compile using: 
-  g++ main.cpp -o simulate -I /usr/include//python3.8 -lpython3.8
-
-#Then run
-  ./simulate
-
+Time derivative of rotation matrices:
+https://arxiv.org/pdf/1609.06088.pdf

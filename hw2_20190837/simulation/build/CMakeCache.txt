@@ -369,6 +369,28 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding Python3
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/jakob/anaconda3/envs/jakob/include/python3.10][/home/jakob/anaconda3/envs/jakob/lib/libpython3.10.so][/home/jakob/anaconda3/envs/jakob/lib/python3.10/site-packages/numpy/core/include][cfound components: Development NumPy Interpreter Development.Module Development.Embed ][v3.10.0()]
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
+//Path to a program.
+_Python3_CONFIG:INTERNAL=/home/jakob/anaconda3/envs/jakob/bin/python3.10-config
+//Compiler reason failure
+_Python3_Compiler_REASON_FAILURE:INTERNAL=
+_Python3_DEVELOPMENT_EMBED_SIGNATURE:INTERNAL=8c91ffeef50823e374dcc63ae9a8875a
+_Python3_DEVELOPMENT_MODULE_SIGNATURE:INTERNAL=4bdf72636c77722038b29b6475538ca1
+//Path to a program.
+_Python3_EXECUTABLE:INTERNAL=/home/jakob/anaconda3/envs/jakob/bin/python3.10
+//Path to a file.
+_Python3_INCLUDE_DIR:INTERNAL=/home/jakob/anaconda3/envs/jakob/include/python3.10
+//Python3 Properties
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;0;64;;cpython-310-x86_64-linux-gnu;/home/jakob/anaconda3/envs/jakob/lib/python3.10;/home/jakob/anaconda3/envs/jakob/lib/python3.10;/home/jakob/anaconda3/envs/jakob/lib/python3.10/site-packages;/home/jakob/anaconda3/envs/jakob/lib/python3.10/site-packages
+_Python3_INTERPRETER_SIGNATURE:INTERNAL=3bef1e1991d5b2c63c722fe10776bdc4
+//Interpreter reason failure
+_Python3_Interpreter_REASON_FAILURE:INTERNAL=
+//Path to a library.
+_Python3_LIBRARY_RELEASE:INTERNAL=/home/jakob/anaconda3/envs/jakob/lib/libpython3.10.so
+_Python3_NUMPY_SIGNATURE:INTERNAL=a1986b6791eba36022904c43ee2b3f7f
+//Path to a file.
+_Python3_NumPy_INCLUDE_DIR:INTERNAL=/home/jakob/anaconda3/envs/jakob/lib/python3.10/site-packages/numpy/core/include
 
