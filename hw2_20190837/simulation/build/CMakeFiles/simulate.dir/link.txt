@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/simulate.dir/src/simulate.cpp.o -o simulate   -L/home/jakob/Desktop/Dynamic-System-Programming-HW/hw2_20190837/simulation/../mymat/build  -Wl,-rpath,/home/jakob/Desktop/Dynamic-System-Programming-HW/hw2_20190837/simulation/../mymat/build -lmymat 

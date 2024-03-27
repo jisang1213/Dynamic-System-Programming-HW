@@ -264,6 +264,7 @@ Vec3::Vec3(double e0, double e1, double e2)
     m_rows = 3;
     m_cols = 1;
     // TODO : Implement vector initialization
+    matrix.resize(m_rows, std::vector<double>(m_cols,0.0));
     matrix[0][0] = e0;
     matrix[1][0] = e1;
     matrix[2][0] = e2;
