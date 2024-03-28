@@ -36,24 +36,34 @@ int main()
     Vec3 wd_lcs; // dw/dt in the local frame
     Mat33 eye(1.0, 1.0, 1.0);
 
-    int count =0;
+    Vec3 Iw;
+    Mat33 K;
+    Vec3 w_gcs;
+    double angle;
 
     std::vector<double> cosx(num_rec), cosy(num_rec), cosz(num_rec), time(num_rec);
 
+    int count = 0;
+    
     std::cout << "Simulation start" << std::endl;
     for (int i_sim = 0; i_sim < n_sim; i_sim++)
     {
         // TODO: implement semi-implicit Euler method to simulate the tennis racket theorem
 
         //find rate change of angular velocity in local frame
-        wd_lcs = I_lcs_inverse*((w_lcs.skew()*(I_lcs*w_lcs))*-1);
+        Iw = I_lcs*w_lcs;
+        wd_lcs = I_lcs_inverse*(Iw.cross(w_lcs));
 
         //increment angular velocity in local frame
         w_lcs = w_lcs + wd_lcs*h;
 
-        //Update orientation. A more computational efficient methods was used involving time derivative of the rotation matrices.
-        //Refer to README for the formula for time derivative of rotation matrices.
-        R_l2g = R_l2g + (R_l2g*w_lcs.skew())*h;
+        //Find rotation using angle axis
+        angle = w_lcs.norm() * h;
+        w_gcs = R_l2g * w_lcs;
+        K = w_gcs.normalized().skew();
+
+        //Update orientation
+        R_l2g = (eye + K*sin(angle) + K*K*(1-cos(angle))) * R_l2g;
 
         // record the simulation results to the file
         if (i_sim % rec_steps == 0)
@@ -65,7 +75,9 @@ int main()
             time[count] = i_sim * h;
             count++;
 
-            std::cout << i_sim*h << std::endl;
+            if(count % 100 == 0){
+                std::cout << "time(s):" << i_sim*h + 0.1 << "  running..." << std::endl;
+            }
 
             file_results << i_sim * h << ", "; // record time
             // record the orientation of the local frame
@@ -79,12 +91,12 @@ int main()
     file_results.close();
 
     // //plot (reconsider using matplotlibbcpp as it requires python)
-    plt::title("Cosine values of local and global axes");
+    plt::title("Cosine of angle between local and global CS axes");
     plt::plot(time, cosx, "b", {{"label", "x-axis"}});
     plt::plot(time, cosy, "r", {{"label", "y-axis"}});
     plt::plot(time, cosz, "y", {{"label", "z-axis"}});
     plt::xlabel("time(s)");
-    plt::ylabel("cos");
+    plt::ylabel("Cos");
     plt::legend({{"upper right"}});
 
     plt::show();

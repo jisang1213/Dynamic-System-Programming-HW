@@ -55,6 +55,8 @@ class Mat33 : public MatBase
         Mat33 transpose(); // transpose
         double det(); // determinant (optional)
         Mat33 inverse(); // inverse
+        // Vec3 operator*(const Vec3& other);
+        // Mat33 operator* (double val); // scalar multiplication
 };
 
 // 3d vector class (subclass of MatBase)
@@ -73,7 +75,7 @@ class Vec3 : public MatBase
         double norm(); // norm (optional)
         void normalize(); //normalizes vector in place
         Vec3 normalized(); // returns normalized copy
-
+        
         void display(); // vector visualization (optional)
 };
 

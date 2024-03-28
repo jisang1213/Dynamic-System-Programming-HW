@@ -41,5 +41,13 @@ int main()
     std::cout << "This is normalized vec3" << std::endl;
     vec3.display();
 
+
+    // vec1.set_elem(0, 0, 4);
+    // vec1.set_elem(1, 0, 2);
+    // vec1.set_elem(2, 0, 47);
+    // Mat33 I(2,3,1);
+    // Vec3 result = (I * vec1);
+    // result.display();
+
     return 0;
 }
