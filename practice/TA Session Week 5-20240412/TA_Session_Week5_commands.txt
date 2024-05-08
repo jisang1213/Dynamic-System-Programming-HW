@@ -1,0 +1,14 @@
+sudo apt remove gz-harmonic && sudo apt autoremove
+curl -sSL http://get.gazebosim.org | sh
+sudo apt install ros-humble-gazebo-ros-pkgs
+
+cd ~/repos/ME454_2024
+git pull
+cd ~/ros2_ws/src
+cp -r ~/repos/ME454_2024/bowling ~/ros2_ws/src
+
+cd ~/ros2_ws
+colcon build
+. install/local_setup.bash
+ros2 launch bowling launch.py
+ros2 service call /demo/set_entity_state 'gazebo_msgs/SetEntityState' '{state: {name: "bowl", pose: {position: {x: 15.0, y: 0.0, z: 1.001}}, twist: {linear: {x: -10.0, y: 0.0, z: 0.0}}}}'

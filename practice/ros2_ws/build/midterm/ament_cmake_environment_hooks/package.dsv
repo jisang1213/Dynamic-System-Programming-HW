@@ -1,0 +1,4 @@
+source;share/midterm/local_setup.bash
+source;share/midterm/local_setup.dsv
+source;share/midterm/local_setup.sh
+source;share/midterm/local_setup.zsh

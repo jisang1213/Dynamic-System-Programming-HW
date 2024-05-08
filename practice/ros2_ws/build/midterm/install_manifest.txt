@@ -1,0 +1,15 @@
+/home/jakob/Desktop/Dynamic-System-Programming-HW/practice/ros2_ws/install/midterm/share/ament_index/resource_index/package_run_dependencies/midterm
+/home/jakob/Desktop/Dynamic-System-Programming-HW/practice/ros2_ws/install/midterm/share/ament_index/resource_index/parent_prefix_path/midterm
+/home/jakob/Desktop/Dynamic-System-Programming-HW/practice/ros2_ws/install/midterm/share/midterm/environment/ament_prefix_path.sh
+/home/jakob/Desktop/Dynamic-System-Programming-HW/practice/ros2_ws/install/midterm/share/midterm/environment/ament_prefix_path.dsv
+/home/jakob/Desktop/Dynamic-System-Programming-HW/practice/ros2_ws/install/midterm/share/midterm/environment/path.sh
+/home/jakob/Desktop/Dynamic-System-Programming-HW/practice/ros2_ws/install/midterm/share/midterm/environment/path.dsv
+/home/jakob/Desktop/Dynamic-System-Programming-HW/practice/ros2_ws/install/midterm/share/midterm/local_setup.bash
+/home/jakob/Desktop/Dynamic-System-Programming-HW/practice/ros2_ws/install/midterm/share/midterm/local_setup.sh
+/home/jakob/Desktop/Dynamic-System-Programming-HW/practice/ros2_ws/install/midterm/share/midterm/local_setup.zsh
+/home/jakob/Desktop/Dynamic-System-Programming-HW/practice/ros2_ws/install/midterm/share/midterm/local_setup.dsv
+/home/jakob/Desktop/Dynamic-System-Programming-HW/practice/ros2_ws/install/midterm/share/midterm/package.dsv
+/home/jakob/Desktop/Dynamic-System-Programming-HW/practice/ros2_ws/install/midterm/share/ament_index/resource_index/packages/midterm
+/home/jakob/Desktop/Dynamic-System-Programming-HW/practice/ros2_ws/install/midterm/share/midterm/cmake/midtermConfig.cmake
+/home/jakob/Desktop/Dynamic-System-Programming-HW/practice/ros2_ws/install/midterm/share/midterm/cmake/midtermConfig-version.cmake
+/home/jakob/Desktop/Dynamic-System-Programming-HW/practice/ros2_ws/install/midterm/share/midterm/package.xml

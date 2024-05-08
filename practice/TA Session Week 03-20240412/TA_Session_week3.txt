@@ -1,0 +1,23 @@
+
+Page 4.
+
+cd ~/repos
+git clone https://github.com/skoo1/ME454_2024
+cp -r ~/repos/ME454_2024/cpp_practice1 ~/cpp_ws
+cp -r ~/repos/ME454_2024/ball_throwing ~/ros2_ws/src
+
+Page 12.
+
+cmake .
+make
+
+
+Page 22.
+
+sudo apt install python3-colcon-common-extensions
+cd ~/ros2_ws
+colcon build
+. install/setup.bash
+ros2 launch ball_throwing ball_launch.py
+
+ros2 topic pub /model/mysphere/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 1.0, y: 0.1, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}"

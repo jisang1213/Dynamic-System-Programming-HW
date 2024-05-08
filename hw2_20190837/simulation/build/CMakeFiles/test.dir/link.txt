@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test.dir/src/test.cpp.o -o test   -L/home/jakob/Desktop/Dynamic-System-Programming-HW/hw2_20190837/simulation/../mymat/build  -Wl,-rpath,/home/jakob/Desktop/Dynamic-System-Programming-HW/hw2_20190837/simulation/../mymat/build:/home/jakob/anaconda3/envs/jakob/lib -lmymat /home/jakob/anaconda3/envs/jakob/lib/libpython3.10.so 

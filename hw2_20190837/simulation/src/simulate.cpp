@@ -13,6 +13,9 @@ int main()
     // create and open file to record simulation results
     std::ofstream file_results("results.csv");
 
+    //output quaternions
+    std::ofstream quat("quat.csv");
+
     double h = 0.0001; // simulation timestep, 0.0001 seconds (0.1 ms)
     int n_sim = 6000000; // number of simulation step
     int rec_steps = 1000; // record the result every n steps (every 0.1 s)
@@ -79,10 +82,15 @@ int main()
                 std::cout << "time(s):" << i_sim*h + 0.1 << "  running..." << std::endl;
             }
 
-            file_results << i_sim * h << ", "; // record time
-            // record the orientation of the local frame
-            for (int i_row = 0; i_row < 3; i_row++) for (int i_col = 0; i_col < 3; i_col++) file_results << R_l2g.get_elem(i_row, i_col) << ", "; 
-            file_results << "\n";
+            // file_results << i_sim * h << ", "; // record time
+            // // record the orientation of the local frame
+            // for (int i_row = 0; i_row < 3; i_row++) for (int i_col = 0; i_col < 3; i_col++) file_results << R_l2g.get_elem(i_row, i_col) << ", "; 
+            // file_results << "\n";
+
+            // //Output quaternions
+            // for (int i_row = 0; i_row < 3; i_row++) for (int i_col = 0; i_col < 3; i_col++) quat << R_l2g.get_elem(i_row, i_col) << ", "; 
+            // quat << "\n";
+
         }
     }
     std::cout << "Simulation end" << std::endl;

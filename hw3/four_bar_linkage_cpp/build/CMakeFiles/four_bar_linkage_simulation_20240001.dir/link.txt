@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/four_bar_linkage_simulation_20240001.dir/src/four_bar_linkage_simulation_20240001.cpp.o -o four_bar_linkage_simulation_20240001 
