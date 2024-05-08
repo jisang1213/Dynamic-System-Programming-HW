@@ -1,9 +1,0 @@
-/home/jakob/Desktop/Dynamic-System-Programming-HW/practice/ros2_ws/build/midterm/CMakeFiles/uninstall.dir
-/home/jakob/Desktop/Dynamic-System-Programming-HW/practice/ros2_ws/build/midterm/CMakeFiles/midterm_uninstall.dir
-/home/jakob/Desktop/Dynamic-System-Programming-HW/practice/ros2_ws/build/midterm/CMakeFiles/test.dir
-/home/jakob/Desktop/Dynamic-System-Programming-HW/practice/ros2_ws/build/midterm/CMakeFiles/edit_cache.dir
-/home/jakob/Desktop/Dynamic-System-Programming-HW/practice/ros2_ws/build/midterm/CMakeFiles/rebuild_cache.dir
-/home/jakob/Desktop/Dynamic-System-Programming-HW/practice/ros2_ws/build/midterm/CMakeFiles/list_install_components.dir
-/home/jakob/Desktop/Dynamic-System-Programming-HW/practice/ros2_ws/build/midterm/CMakeFiles/install.dir
-/home/jakob/Desktop/Dynamic-System-Programming-HW/practice/ros2_ws/build/midterm/CMakeFiles/install/local.dir
-/home/jakob/Desktop/Dynamic-System-Programming-HW/practice/ros2_ws/build/midterm/CMakeFiles/install/strip.dir

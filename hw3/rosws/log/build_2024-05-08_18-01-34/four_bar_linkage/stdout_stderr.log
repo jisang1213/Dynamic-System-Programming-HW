@@ -1,0 +1,24 @@
+-- Install configuration: ""
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/launch
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/launch/four_bar_linkage_launch.py
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/rsc
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/rsc/sdf
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/rsc/sdf/four_bar_linkage_20190837.sdf
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/worlds
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/worlds/four_bar_linkage.world
+-- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/include
+-- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/ament_index/resource_index/package_run_dependencies/four_bar_linkage
+-- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/ament_index/resource_index/parent_prefix_path/four_bar_linkage
+-- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/environment/ament_prefix_path.sh
+-- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/environment/ament_prefix_path.dsv
+-- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/environment/path.sh
+-- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/environment/path.dsv
+-- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/local_setup.bash
+-- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/local_setup.sh
+-- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/local_setup.zsh
+-- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/local_setup.dsv
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/package.dsv
+-- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/ament_index/resource_index/packages/four_bar_linkage
+-- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/cmake/four_bar_linkageConfig.cmake
+-- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/cmake/four_bar_linkageConfig-version.cmake
+-- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/package.xml

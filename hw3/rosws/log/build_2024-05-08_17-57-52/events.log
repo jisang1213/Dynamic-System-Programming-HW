@@ -1,0 +1,164 @@
+[0.000000] (-) TimerEvent: {}
+[0.000443] (four_bar_linkage) JobQueued: {'identifier': 'four_bar_linkage', 'dependencies': OrderedDict()}
+[0.000526] (four_bar_linkage) JobStarted: {'identifier': 'four_bar_linkage'}
+[0.055936] (four_bar_linkage) JobProgress: {'identifier': 'four_bar_linkage', 'progress': 'cmake'}
+[0.056546] (four_bar_linkage) Command: {'cmd': ['/usr/bin/cmake', '/home/jisang/Dynamic-System-Programming-HW/hw3/rosws/src/four_bar_linkage', '-DCMAKE_INSTALL_PREFIX=/home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage'], 'cwd': '/home/jisang/Dynamic-System-Programming-HW/hw3/rosws/build/four_bar_linkage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jisang'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('HOME', '/home/jisang'), ('OLDPWD', '/home/jisang/Dynamic-System-Programming-HW/hw3/rosws/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jisang'), ('NAME', 'DESKTOP-L0FC96U'), ('WSL_INTEROP', '/run/WSL/9259_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/bin:/mnt/c/Users/user26/Anaconda3:/mnt/c/Users/user26/Anaconda3/Library/mingw-w64/bin:/mnt/c/Users/user26/Anaconda3/Library/usr/bin:/mnt/c/Users/user26/Anaconda3/Library/bin:/mnt/c/Users/user26/Anaconda3/Scripts:/mnt/c/Users/user26/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user26/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '05d8b59a-2f66-4996-9fdc-7f883603a755'), ('DISPLAY', '172.19.16.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_IP', '127.0.0.1'), ('PWD', '/home/jisang/Dynamic-System-Programming-HW/hw3/rosws/build/four_bar_linkage'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098654] (-) TimerEvent: {}
+[0.198870] (-) TimerEvent: {}
+[0.233245] (four_bar_linkage) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299050] (-) TimerEvent: {}
+[0.399304] (-) TimerEvent: {}
+[0.499577] (-) TimerEvent: {}
+[0.599777] (-) TimerEvent: {}
+[0.700001] (-) TimerEvent: {}
+[0.788267] (four_bar_linkage) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.800165] (-) TimerEvent: {}
+[0.900468] (-) TimerEvent: {}
+[1.000681] (-) TimerEvent: {}
+[1.100915] (-) TimerEvent: {}
+[1.174944] (four_bar_linkage) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.201085] (-) TimerEvent: {}
+[1.301349] (-) TimerEvent: {}
+[1.334885] (four_bar_linkage) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.343852] (four_bar_linkage) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.344570] (four_bar_linkage) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.345123] (four_bar_linkage) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.349485] (four_bar_linkage) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.401468] (-) TimerEvent: {}
+[1.501491] (four_bar_linkage) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.501649] (-) TimerEvent: {}
+[1.511356] (four_bar_linkage) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.511672] (four_bar_linkage) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.512304] (four_bar_linkage) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.516148] (four_bar_linkage) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.601845] (-) TimerEvent: {}
+[1.660419] (four_bar_linkage) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.702051] (-) TimerEvent: {}
+[1.747691] (four_bar_linkage) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.802248] (-) TimerEvent: {}
+[1.902600] (-) TimerEvent: {}
+[2.000153] (four_bar_linkage) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.002746] (-) TimerEvent: {}
+[2.009687] (four_bar_linkage) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.028773] (four_bar_linkage) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.056787] (four_bar_linkage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.095484] (four_bar_linkage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.102972] (-) TimerEvent: {}
+[2.203199] (-) TimerEvent: {}
+[2.211678] (four_bar_linkage) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.218274] (four_bar_linkage) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.303421] (-) TimerEvent: {}
+[2.403749] (-) TimerEvent: {}
+[2.504020] (-) TimerEvent: {}
+[2.604258] (-) TimerEvent: {}
+[2.704471] (-) TimerEvent: {}
+[2.804733] (-) TimerEvent: {}
+[2.905029] (-) TimerEvent: {}
+[3.005301] (-) TimerEvent: {}
+[3.105577] (-) TimerEvent: {}
+[3.205777] (-) TimerEvent: {}
+[3.306086] (-) TimerEvent: {}
+[3.406336] (-) TimerEvent: {}
+[3.506623] (-) TimerEvent: {}
+[3.606837] (-) TimerEvent: {}
+[3.707109] (-) TimerEvent: {}
+[3.807390] (-) TimerEvent: {}
+[3.845107] (four_bar_linkage) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.907566] (-) TimerEvent: {}
+[4.007795] (-) TimerEvent: {}
+[4.107990] (-) TimerEvent: {}
+[4.208254] (-) TimerEvent: {}
+[4.308505] (-) TimerEvent: {}
+[4.408734] (-) TimerEvent: {}
+[4.509017] (-) TimerEvent: {}
+[4.609326] (-) TimerEvent: {}
+[4.709596] (-) TimerEvent: {}
+[4.809881] (-) TimerEvent: {}
+[4.910134] (-) TimerEvent: {}
+[5.010420] (-) TimerEvent: {}
+[5.110731] (-) TimerEvent: {}
+[5.210956] (-) TimerEvent: {}
+[5.311221] (-) TimerEvent: {}
+[5.339728] (four_bar_linkage) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.411401] (-) TimerEvent: {}
+[5.511676] (-) TimerEvent: {}
+[5.611918] (-) TimerEvent: {}
+[5.712186] (-) TimerEvent: {}
+[5.812435] (-) TimerEvent: {}
+[5.912717] (-) TimerEvent: {}
+[6.012977] (-) TimerEvent: {}
+[6.113231] (-) TimerEvent: {}
+[6.213451] (-) TimerEvent: {}
+[6.313759] (-) TimerEvent: {}
+[6.414008] (-) TimerEvent: {}
+[6.514286] (-) TimerEvent: {}
+[6.614523] (-) TimerEvent: {}
+[6.714778] (-) TimerEvent: {}
+[6.815025] (-) TimerEvent: {}
+[6.915287] (-) TimerEvent: {}
+[7.015576] (-) TimerEvent: {}
+[7.115794] (-) TimerEvent: {}
+[7.216006] (-) TimerEvent: {}
+[7.316262] (-) TimerEvent: {}
+[7.416510] (-) TimerEvent: {}
+[7.516764] (-) TimerEvent: {}
+[7.617039] (-) TimerEvent: {}
+[7.717271] (-) TimerEvent: {}
+[7.817520] (-) TimerEvent: {}
+[7.917853] (-) TimerEvent: {}
+[8.018096] (-) TimerEvent: {}
+[8.118300] (-) TimerEvent: {}
+[8.218543] (-) TimerEvent: {}
+[8.318802] (-) TimerEvent: {}
+[8.419012] (-) TimerEvent: {}
+[8.519317] (-) TimerEvent: {}
+[8.548827] (four_bar_linkage) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.579664] (four_bar_linkage) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.619486] (-) TimerEvent: {}
+[8.719740] (-) TimerEvent: {}
+[8.762174] (four_bar_linkage) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.762761] (four_bar_linkage) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.819913] (-) TimerEvent: {}
+[8.910876] (four_bar_linkage) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[8.912160] (four_bar_linkage) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.920124] (-) TimerEvent: {}
+[9.020499] (-) TimerEvent: {}
+[9.120815] (-) TimerEvent: {}
+[9.159187] (four_bar_linkage) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)\n'}
+[9.220956] (-) TimerEvent: {}
+[9.321237] (-) TimerEvent: {}
+[9.421529] (-) TimerEvent: {}
+[9.492988] (four_bar_linkage) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.521745] (-) TimerEvent: {}
+[9.570418] (four_bar_linkage) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.571474] (four_bar_linkage) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.572228] (four_bar_linkage) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[9.573413] (four_bar_linkage) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.574971] (four_bar_linkage) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.580314] (four_bar_linkage) StdoutLine: {'line': b'-- Generating done\n'}
+[9.582040] (four_bar_linkage) StdoutLine: {'line': b'-- Build files have been written to: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/build/four_bar_linkage\n'}
+[9.592386] (four_bar_linkage) CommandEnded: {'returncode': 0}
+[9.593025] (four_bar_linkage) JobProgress: {'identifier': 'four_bar_linkage', 'progress': 'build'}
+[9.594564] (four_bar_linkage) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jisang/Dynamic-System-Programming-HW/hw3/rosws/build/four_bar_linkage', '--', '-j4', '-l4'], 'cwd': '/home/jisang/Dynamic-System-Programming-HW/hw3/rosws/build/four_bar_linkage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jisang'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('HOME', '/home/jisang'), ('OLDPWD', '/home/jisang/Dynamic-System-Programming-HW/hw3/rosws/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jisang'), ('NAME', 'DESKTOP-L0FC96U'), ('WSL_INTEROP', '/run/WSL/9259_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/bin:/mnt/c/Users/user26/Anaconda3:/mnt/c/Users/user26/Anaconda3/Library/mingw-w64/bin:/mnt/c/Users/user26/Anaconda3/Library/usr/bin:/mnt/c/Users/user26/Anaconda3/Library/bin:/mnt/c/Users/user26/Anaconda3/Scripts:/mnt/c/Users/user26/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user26/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '05d8b59a-2f66-4996-9fdc-7f883603a755'), ('DISPLAY', '172.19.16.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_IP', '127.0.0.1'), ('PWD', '/home/jisang/Dynamic-System-Programming-HW/hw3/rosws/build/four_bar_linkage'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.621902] (-) TimerEvent: {}
+[9.629305] (four_bar_linkage) CommandEnded: {'returncode': 0}
+[9.648705] (four_bar_linkage) JobProgress: {'identifier': 'four_bar_linkage', 'progress': 'install'}
+[9.656112] (four_bar_linkage) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jisang/Dynamic-System-Programming-HW/hw3/rosws/build/four_bar_linkage'], 'cwd': '/home/jisang/Dynamic-System-Programming-HW/hw3/rosws/build/four_bar_linkage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jisang'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('HOME', '/home/jisang'), ('OLDPWD', '/home/jisang/Dynamic-System-Programming-HW/hw3/rosws/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jisang'), ('NAME', 'DESKTOP-L0FC96U'), ('WSL_INTEROP', '/run/WSL/9259_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/bin:/mnt/c/Users/user26/Anaconda3:/mnt/c/Users/user26/Anaconda3/Library/mingw-w64/bin:/mnt/c/Users/user26/Anaconda3/Library/usr/bin:/mnt/c/Users/user26/Anaconda3/Library/bin:/mnt/c/Users/user26/Anaconda3/Scripts:/mnt/c/Users/user26/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user26/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '05d8b59a-2f66-4996-9fdc-7f883603a755'), ('DISPLAY', '172.19.16.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_IP', '127.0.0.1'), ('PWD', '/home/jisang/Dynamic-System-Programming-HW/hw3/rosws/build/four_bar_linkage'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.662702] (four_bar_linkage) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.662969] (four_bar_linkage) StdoutLine: {'line': b'-- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/launch\n'}
+[9.663631] (four_bar_linkage) StdoutLine: {'line': b'-- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/launch/four_bar_linkage_launch.py\n'}
+[9.663911] (four_bar_linkage) StdoutLine: {'line': b'-- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/rsc\n'}
+[9.664171] (four_bar_linkage) StdoutLine: {'line': b'-- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/rsc/sdf\n'}
+[9.664288] (four_bar_linkage) StdoutLine: {'line': b'-- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/rsc/sdf/four_bar_linkage_20190837.sdf\n'}
+[9.664585] (four_bar_linkage) StdoutLine: {'line': b'-- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/worlds\n'}
+[9.664794] (four_bar_linkage) StdoutLine: {'line': b'-- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/worlds/four_bar_linkage.world\n'}
+[9.664864] (four_bar_linkage) StderrLine: {'line': b'\x1b[31mCMake Error at cmake_install.cmake:46 (file):\n'}
+[9.664940] (four_bar_linkage) StderrLine: {'line': b'  file INSTALL cannot find\n'}
+[9.665002] (four_bar_linkage) StderrLine: {'line': b'  "/home/jisang/Dynamic-System-Programming-HW/hw3/rosws/src/four_bar_linkage/include":\n'}
+[9.665061] (four_bar_linkage) StderrLine: {'line': b'  No such file or directory.\n'}
+[9.665190] (four_bar_linkage) StderrLine: {'line': b'\n'}
+[9.665395] (four_bar_linkage) StderrLine: {'line': b'\x1b[0m\n'}
+[9.666461] (four_bar_linkage) CommandEnded: {'returncode': 1}
+[9.722045] (-) TimerEvent: {}
+[9.743931] (four_bar_linkage) JobEnded: {'identifier': 'four_bar_linkage', 'rc': 1}
+[9.754986] (-) EventReactorShutdown: {}

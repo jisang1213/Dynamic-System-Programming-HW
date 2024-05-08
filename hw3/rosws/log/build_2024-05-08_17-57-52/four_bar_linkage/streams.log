@@ -1,0 +1,59 @@
+[0.058s] Invoking command in '/home/jisang/Dynamic-System-Programming-HW/hw3/rosws/build/four_bar_linkage': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/src/four_bar_linkage -DCMAKE_INSTALL_PREFIX=/home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage
+[0.233s] -- The C compiler identification is GNU 11.4.0
+[0.788s] -- The CXX compiler identification is GNU 11.4.0
+[1.175s] -- Detecting C compiler ABI info
+[1.334s] -- Detecting C compiler ABI info - done
+[1.343s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.344s] -- Detecting C compile features
+[1.345s] -- Detecting C compile features - done
+[1.349s] -- Detecting CXX compiler ABI info
+[1.501s] -- Detecting CXX compiler ABI info - done
+[1.511s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.511s] -- Detecting CXX compile features
+[1.512s] -- Detecting CXX compile features - done
+[1.516s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.660s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.747s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.000s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.009s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.028s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.056s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.095s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.211s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.218s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.845s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.339s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.548s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.579s] -- Looking for pthread.h
+[8.762s] -- Looking for pthread.h - found
+[8.762s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.910s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.912s] -- Found Threads: TRUE  
+[9.159s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[9.493s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.570s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.571s] -- Added test 'lint_cmake' to check CMake code style
+[9.572s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.573s] -- Added test 'xmllint' to check XML markup files
+[9.575s] -- Configuring done
+[9.580s] -- Generating done
+[9.582s] -- Build files have been written to: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/build/four_bar_linkage
+[9.592s] Invoked command in '/home/jisang/Dynamic-System-Programming-HW/hw3/rosws/build/four_bar_linkage' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/src/four_bar_linkage -DCMAKE_INSTALL_PREFIX=/home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage
+[9.594s] Invoking command in '/home/jisang/Dynamic-System-Programming-HW/hw3/rosws/build/four_bar_linkage': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/build/four_bar_linkage -- -j4 -l4
+[9.629s] Invoked command in '/home/jisang/Dynamic-System-Programming-HW/hw3/rosws/build/four_bar_linkage' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/build/four_bar_linkage -- -j4 -l4
+[9.656s] Invoking command in '/home/jisang/Dynamic-System-Programming-HW/hw3/rosws/build/four_bar_linkage': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/build/four_bar_linkage
+[9.662s] -- Install configuration: ""
+[9.663s] -- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/launch
+[9.663s] -- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/launch/four_bar_linkage_launch.py
+[9.664s] -- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/rsc
+[9.664s] -- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/rsc/sdf
+[9.664s] -- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/rsc/sdf/four_bar_linkage_20190837.sdf
+[9.664s] -- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/worlds
+[9.664s] -- Installing: /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/install/four_bar_linkage/share/four_bar_linkage/worlds/four_bar_linkage.world
+[9.664s] [31mCMake Error at cmake_install.cmake:46 (file):
+[9.664s]   file INSTALL cannot find
+[9.664s]   "/home/jisang/Dynamic-System-Programming-HW/hw3/rosws/src/four_bar_linkage/include":
+[9.665s]   No such file or directory.
+[9.665s] 
+[9.665s] [0m
+[9.666s] Invoked command in '/home/jisang/Dynamic-System-Programming-HW/hw3/rosws/build/four_bar_linkage' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jisang/Dynamic-System-Programming-HW/hw3/rosws/build/four_bar_linkage
