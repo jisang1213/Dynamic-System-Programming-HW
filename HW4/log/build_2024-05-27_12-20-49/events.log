@@ -1,0 +1,112 @@
+[0.000000] (-) TimerEvent: {}
+[0.000153] (cartpole) JobQueued: {'identifier': 'cartpole', 'dependencies': OrderedDict()}
+[0.000222] (cartpole) JobStarted: {'identifier': 'cartpole'}
+[0.007461] (cartpole) JobProgress: {'identifier': 'cartpole', 'progress': 'cmake'}
+[0.009176] (cartpole) JobProgress: {'identifier': 'cartpole', 'progress': 'build'}
+[0.009261] (cartpole) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jisang/Dynamic-System-Programming-HW/HW4/build/cartpole', '--', '-j16', '-l16'], 'cwd': '/home/jisang/Dynamic-System-Programming-HW/HW4/build/cartpole', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jisang'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('HOME', '/home/jisang'), ('OLDPWD', '/home/jisang/Dynamic-System-Programming-HW'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jisang/Dynamic-System-Programming-HW/HW4/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jisang'), ('NAME', 'DESKTOP-R1S9O5R'), ('WSL_INTEROP', '/run/WSL/49677_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2020a/bin:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '52db8e49-8df8-4b99-be7a-e045cf9d0167'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', '172.23.144.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_IP', '127.0.0.1'), ('PWD', '/home/jisang/Dynamic-System-Programming-HW/HW4/build/cartpole'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.058325] (cartpole) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pid_publisher_subscriber_node\x1b[0m\n'}
+[0.073270] (cartpole) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pid_publisher_subscriber_node.dir/src/pid_publisher_subscriber_node.cpp.o\x1b[0m\n'}
+[0.099545] (-) TimerEvent: {}
+[0.199890] (-) TimerEvent: {}
+[0.300277] (-) TimerEvent: {}
+[0.400683] (-) TimerEvent: {}
+[0.501084] (-) TimerEvent: {}
+[0.601453] (-) TimerEvent: {}
+[0.701858] (-) TimerEvent: {}
+[0.802230] (-) TimerEvent: {}
+[0.902604] (-) TimerEvent: {}
+[1.003021] (-) TimerEvent: {}
+[1.103411] (-) TimerEvent: {}
+[1.203757] (-) TimerEvent: {}
+[1.304138] (-) TimerEvent: {}
+[1.404524] (-) TimerEvent: {}
+[1.504914] (-) TimerEvent: {}
+[1.605294] (-) TimerEvent: {}
+[1.705676] (-) TimerEvent: {}
+[1.806087] (-) TimerEvent: {}
+[1.906525] (-) TimerEvent: {}
+[2.006907] (-) TimerEvent: {}
+[2.107256] (-) TimerEvent: {}
+[2.207609] (-) TimerEvent: {}
+[2.307965] (-) TimerEvent: {}
+[2.408341] (-) TimerEvent: {}
+[2.509048] (-) TimerEvent: {}
+[2.609615] (-) TimerEvent: {}
+[2.710048] (-) TimerEvent: {}
+[2.810437] (-) TimerEvent: {}
+[2.910820] (-) TimerEvent: {}
+[3.011201] (-) TimerEvent: {}
+[3.111582] (-) TimerEvent: {}
+[3.211968] (-) TimerEvent: {}
+[3.312369] (-) TimerEvent: {}
+[3.412789] (-) TimerEvent: {}
+[3.513180] (-) TimerEvent: {}
+[3.613560] (-) TimerEvent: {}
+[3.713928] (-) TimerEvent: {}
+[3.814283] (-) TimerEvent: {}
+[3.914655] (-) TimerEvent: {}
+[4.015053] (-) TimerEvent: {}
+[4.115426] (-) TimerEvent: {}
+[4.215755] (-) TimerEvent: {}
+[4.316143] (-) TimerEvent: {}
+[4.416543] (-) TimerEvent: {}
+[4.516898] (-) TimerEvent: {}
+[4.617264] (-) TimerEvent: {}
+[4.717617] (-) TimerEvent: {}
+[4.817978] (-) TimerEvent: {}
+[4.918374] (-) TimerEvent: {}
+[5.018709] (-) TimerEvent: {}
+[5.119086] (-) TimerEvent: {}
+[5.219439] (-) TimerEvent: {}
+[5.319797] (-) TimerEvent: {}
+[5.420152] (-) TimerEvent: {}
+[5.520475] (-) TimerEvent: {}
+[5.620852] (-) TimerEvent: {}
+[5.721215] (-) TimerEvent: {}
+[5.821576] (-) TimerEvent: {}
+[5.921935] (-) TimerEvent: {}
+[6.022233] (-) TimerEvent: {}
+[6.122599] (-) TimerEvent: {}
+[6.222916] (-) TimerEvent: {}
+[6.323302] (-) TimerEvent: {}
+[6.423662] (-) TimerEvent: {}
+[6.524066] (-) TimerEvent: {}
+[6.587275] (cartpole) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pid_publisher_subscriber_node\x1b[0m\n'}
+[6.624196] (-) TimerEvent: {}
+[6.724530] (-) TimerEvent: {}
+[6.824876] (-) TimerEvent: {}
+[6.920375] (cartpole) StdoutLine: {'line': b'[100%] Built target pid_publisher_subscriber_node\n'}
+[6.924975] (-) TimerEvent: {}
+[6.931984] (cartpole) CommandEnded: {'returncode': 0}
+[6.948451] (cartpole) JobProgress: {'identifier': 'cartpole', 'progress': 'install'}
+[6.954638] (cartpole) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jisang/Dynamic-System-Programming-HW/HW4/build/cartpole'], 'cwd': '/home/jisang/Dynamic-System-Programming-HW/HW4/build/cartpole', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jisang'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('HOME', '/home/jisang'), ('OLDPWD', '/home/jisang/Dynamic-System-Programming-HW'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jisang/Dynamic-System-Programming-HW/HW4/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jisang'), ('NAME', 'DESKTOP-R1S9O5R'), ('WSL_INTEROP', '/run/WSL/49677_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2020a/bin:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '52db8e49-8df8-4b99-be7a-e045cf9d0167'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', '172.23.144.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_IP', '127.0.0.1'), ('PWD', '/home/jisang/Dynamic-System-Programming-HW/HW4/build/cartpole'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[6.960701] (cartpole) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.960968] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/launch\n'}
+[6.961243] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/launch/cartpolePID.launch.py\n'}
+[6.961420] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/rsc\n'}
+[6.961588] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/rsc/urdf\n'}
+[6.961733] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/rsc/urdf/cartpoleeffort.urdf\n'}
+[6.961878] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/worlds\n'}
+[6.962049] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/worlds/cartpole.world\n'}
+[6.962192] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/config\n'}
+[6.962355] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/config/cartpoleeffort.yaml\n'}
+[6.962410] (cartpole) StdoutLine: {'line': b'-- Installing: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/lib/cartpole/pid_publisher_subscriber_node\n'}
+[6.987195] (cartpole) StdoutLine: {'line': b'-- Set runtime path of "/home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/lib/cartpole/pid_publisher_subscriber_node" to ""\n'}
+[6.987476] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/ament_index/resource_index/package_run_dependencies/cartpole\n'}
+[6.987679] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/ament_index/resource_index/parent_prefix_path/cartpole\n'}
+[6.987830] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/environment/ament_prefix_path.sh\n'}
+[6.987978] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/environment/ament_prefix_path.dsv\n'}
+[6.988125] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/environment/path.sh\n'}
+[6.988273] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/environment/path.dsv\n'}
+[6.988421] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/local_setup.bash\n'}
+[6.988526] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/local_setup.sh\n'}
+[6.988800] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/local_setup.zsh\n'}
+[6.988948] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/local_setup.dsv\n'}
+[6.989313] (cartpole) StdoutLine: {'line': b'-- Installing: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/package.dsv\n'}
+[6.989407] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/ament_index/resource_index/packages/cartpole\n'}
+[6.989490] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/cmake/cartpoleConfig.cmake\n'}
+[6.989740] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/cmake/cartpoleConfig-version.cmake\n'}
+[6.990115] (cartpole) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/package.xml\n'}
+[6.991006] (cartpole) CommandEnded: {'returncode': 0}
+[7.019938] (cartpole) JobEnded: {'identifier': 'cartpole', 'rc': 0}
+[7.020940] (-) EventReactorShutdown: {}

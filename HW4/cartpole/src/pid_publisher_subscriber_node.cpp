@@ -105,8 +105,8 @@ private:
         error_theta_old = error_theta;
         error_x_old = error_x;
 
-        //return force_input;
-        return 0;
+        return force_input;
+        //return 0;
     }
     double I_error_theta=0.0;
     double I_error_x=0.0;

@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target pid_publisher_subscriber_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pid_publisher_subscriber_node.dir/src/pid_publisher_subscriber_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable pid_publisher_subscriber_node[0m
+[100%] Built target pid_publisher_subscriber_node
+-- Install configuration: ""
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/launch
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/launch/cartpolePID.launch.py
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/rsc
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/rsc/urdf
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/rsc/urdf/cartpoleeffort.urdf
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/worlds
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/worlds/cartpole.world
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/config
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/config/cartpoleeffort.yaml
+-- Installing: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/lib/cartpole/pid_publisher_subscriber_node
+-- Set runtime path of "/home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/lib/cartpole/pid_publisher_subscriber_node" to ""
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/ament_index/resource_index/package_run_dependencies/cartpole
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/ament_index/resource_index/parent_prefix_path/cartpole
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/environment/path.sh
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/environment/path.dsv
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/local_setup.bash
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/local_setup.sh
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/local_setup.zsh
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/local_setup.dsv
+-- Installing: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/package.dsv
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/ament_index/resource_index/packages/cartpole
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/cmake/cartpoleConfig.cmake
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/cmake/cartpoleConfig-version.cmake
+-- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/package.xml

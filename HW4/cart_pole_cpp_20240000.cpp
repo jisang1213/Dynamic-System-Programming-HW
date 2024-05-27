@@ -32,7 +32,7 @@ public:
     int count = 0;
     Logger logger;
 
-    CartPole() : x1(0.0), d_x1(0.0), theta2(0.523599), d_theta2(0.0), F(0.0), logger("results_20240000.csv") {} // Initial condition
+    CartPole() : x1(0.0), d_x1(0.0), theta2(0.523599), d_theta2(0.0), F(0.0), logger("Part3_results_20190837.csv") {} // Initial condition
 
     void semi_implicit_integration() {
 
@@ -69,7 +69,7 @@ public:
         /// Calculate the matrix on the left of the motion equation (Part2. 2-1)
 
         //fill mass matrix
-        Eigen::MatrixXd M = Eigen::Matrix::Zero(6,6);
+        Eigen::MatrixXd M = Eigen::MatrixXd::Zero(6,6);
         M(0,0) = m_1;
         M(1,1) = m_1;
         M(2,2) = I_1;
@@ -78,7 +78,7 @@ public:
         M(5,5) = I_2;
 
         //fill Jacobian
-        Eigen::MatrixXd J = Eigen::Matrix::Zero(4,6);
+        Eigen::MatrixXd J = Eigen::MatrixXd::Zero(4,6);
         J(0,0) = -1;
         J(0,3) = 1;
         J(0,5) = -length * cos(theta2);
@@ -107,7 +107,7 @@ public:
         //vec 0~5 are for q"
         //vec 6~9 are for lamdas
         vec[0] = F;
-        //vec[1] = -9.81*m_1;   ??
+        vec[1] = -9.81*m_1;
         vec[4] = -9.81*m_2;
         vec[6] = -length * sin(theta2) * d_theta2 * d_theta2;
         vec[7] = -length * cos(theta2) * d_theta2 * d_theta2;

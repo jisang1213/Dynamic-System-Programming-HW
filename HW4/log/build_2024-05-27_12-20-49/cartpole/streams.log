@@ -1,0 +1,35 @@
+[0.013s] Invoking command in '/home/jisang/Dynamic-System-Programming-HW/HW4/build/cartpole': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jisang/Dynamic-System-Programming-HW/HW4/build/cartpole -- -j16 -l16
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target pid_publisher_subscriber_node[0m
+[0.073s] [ 50%] [32mBuilding CXX object CMakeFiles/pid_publisher_subscriber_node.dir/src/pid_publisher_subscriber_node.cpp.o[0m
+[6.587s] [100%] [32m[1mLinking CXX executable pid_publisher_subscriber_node[0m
+[6.920s] [100%] Built target pid_publisher_subscriber_node
+[6.932s] Invoked command in '/home/jisang/Dynamic-System-Programming-HW/HW4/build/cartpole' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jisang/Dynamic-System-Programming-HW/HW4/build/cartpole -- -j16 -l16
+[6.955s] Invoking command in '/home/jisang/Dynamic-System-Programming-HW/HW4/build/cartpole': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jisang/Dynamic-System-Programming-HW/HW4/build/cartpole
+[6.961s] -- Install configuration: ""
+[6.961s] -- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/launch
+[6.961s] -- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/launch/cartpolePID.launch.py
+[6.961s] -- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/rsc
+[6.961s] -- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/rsc/urdf
+[6.962s] -- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/rsc/urdf/cartpoleeffort.urdf
+[6.962s] -- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/worlds
+[6.962s] -- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/worlds/cartpole.world
+[6.962s] -- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/config
+[6.962s] -- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/config/cartpoleeffort.yaml
+[6.962s] -- Installing: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/lib/cartpole/pid_publisher_subscriber_node
+[6.987s] -- Set runtime path of "/home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/lib/cartpole/pid_publisher_subscriber_node" to ""
+[6.987s] -- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/ament_index/resource_index/package_run_dependencies/cartpole
+[6.988s] -- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/ament_index/resource_index/parent_prefix_path/cartpole
+[6.988s] -- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/environment/ament_prefix_path.sh
+[6.988s] -- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/environment/ament_prefix_path.dsv
+[6.988s] -- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/environment/path.sh
+[6.988s] -- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/environment/path.dsv
+[6.988s] -- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/local_setup.bash
+[6.988s] -- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/local_setup.sh
+[6.989s] -- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/local_setup.zsh
+[6.989s] -- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/local_setup.dsv
+[6.989s] -- Installing: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/package.dsv
+[6.989s] -- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/ament_index/resource_index/packages/cartpole
+[6.989s] -- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/cmake/cartpoleConfig.cmake
+[6.990s] -- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/cmake/cartpoleConfig-version.cmake
+[6.990s] -- Up-to-date: /home/jisang/Dynamic-System-Programming-HW/HW4/install/cartpole/share/cartpole/package.xml
+[6.991s] Invoked command in '/home/jisang/Dynamic-System-Programming-HW/HW4/build/cartpole' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jisang/Dynamic-System-Programming-HW/HW4/build/cartpole
